@@ -45,7 +45,7 @@ ul{
 
 
 .hero p{
-    font-size: 18px;
+    font-size: 16px;
     color : #E5E7EB;
     margin-top: 10px;
 }
@@ -80,3 +80,38 @@ ul{
     flex : 1;
 }
 
+/* Information */
+.information{
+    background-color:white ;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.info-contener{
+    display: flex;
+    gap : 10px;
+    align-items: center;
+    color : grey;
+    font-size: bold;
+    justify-content: center;
+    gap: 10%;
+}
+
+.item{
+    justify-content: center;
+    max-width: 170px;
+}
+
+.image{
+    border: 3px solid #3882F6;
+    height: 140px;
+    flex-basis: auto;
+    border-radius: 15px;
+}
+
+.info-item{
+    max-width: 190px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid black;
+}
